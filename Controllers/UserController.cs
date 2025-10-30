@@ -3,9 +3,9 @@ using UniqueFood.API.Repositories;
 
 namespace UniqueFood.API.Controllers
 {
-    public class UserController : BaseController<Product>
+    public class UserController : BaseController<User>
     {
-        public UserController(IGenericRepository<Product> repository) : base(repository)
+        public UserController(IGenericRepository<User> repository) : base(repository)
         {
         }
     }

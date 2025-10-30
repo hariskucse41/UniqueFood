@@ -3,9 +3,9 @@ using UniqueFood.API.Repositories;
 
 namespace UniqueFood.API.Controllers
 {
-    public class PaymentController : BaseController<Product>
+    public class PaymentController : BaseController<Payment>
     {
-        public PaymentController(IGenericRepository<Product> repository) : base(repository)
+        public PaymentController(IGenericRepository<Payment> repository) : base(repository)
         {
         }
     }

@@ -3,9 +3,9 @@ using UniqueFood.API.Repositories;
 
 namespace UniqueFood.API.Controllers
 {
-    public class CartController : BaseController<Product>
+    public class CartController : BaseController<Cart>
     {
-        public CartController(IGenericRepository<Product> repository) : base(repository)
+        public CartController(IGenericRepository<Cart> repository) : base(repository)
         {
         }
     }

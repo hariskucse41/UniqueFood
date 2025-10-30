@@ -3,9 +3,9 @@ using UniqueFood.API.Repositories;
 
 namespace UniqueFood.API.Controllers
 {
-    public class ReviewController : BaseController<Product>
+    public class ReviewController : BaseController<Review>
     {
-        public ReviewController(IGenericRepository<Product> repository) : base(repository)
+        public ReviewController(IGenericRepository<Review> repository) : base(repository)
         {
         }
     }
