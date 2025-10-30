@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Other temporary files
+*.log
+*.cache
+*.ide
+*.db
+*.mpdb
+*.pidb
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# IIS Express
+.vscode/
+*.vspscc
+*.vssscc
